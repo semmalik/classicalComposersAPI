@@ -1,9 +1,13 @@
 document.querySelector('button').addEventListener('click', getQuery)
 
 
-function getQuery() {
+async function getQuery() {
 	const query = document.querySelector('input').value
-	document.querySelector('h2').innerText = query
-	console.log(query)
+
+	const response = await fetch(`/api/${query}`)
+
+	const data = await response.json()
+
+	console.log(data)
 
 }
