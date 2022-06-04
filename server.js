@@ -26,6 +26,10 @@ app.get('/', (request, response) => {
 	response.sendFile(__dirname + '/index.html')
 })
 
+app.get('/js/main.js', (request, response) => {
+	response.sendFile(__dirname + '/js/main.js')
+}) 
+
 app.get('/api/:name', (request, response) => {
 	const composerName = request.params.name.toLowerCase()
 	if (composers[composerName]) {
