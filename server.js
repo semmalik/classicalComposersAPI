@@ -19,7 +19,7 @@ const composers = {
 	'birthLocation' : 'Bonn, Germany',
 	'birthday' : '17 December 1770',
 	'death' : '26 March 1827',
-	'period' : 'Classical into Romantic',
+	'period' : 'Classical into the Romantic',
 	'notableWorks' : '9th Symphony'
 
 	},
@@ -53,7 +53,7 @@ const composers = {
 	'birthday' : '7 May 1840',
 	'death' : '6 November 1893',
 	'period' : 'Romantic',
-	'notableWorks' : 'The ballets Swan Lake and The Nutcracker'
+	'notableWorks' : 'the ballets Swan Lake and The Nutcracker'
 	},
 	'unknown' : {
 	'fullName' : 'unknown',
