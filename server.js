@@ -6,17 +6,45 @@ const composers = {
 	'mozart' : {
 	'fullName' : 'Wolfgang Amadeus Mozart',
 	'birthLocation' : 'Salzburg, Austria',
-	'period' : 'classical'
+	'birthday' : '27 January 1756',
+	'death' : '5 December 1791',
+	'period' : 'Classical'
 	},
 	'beethoven' : {
 	'fullName' : 'Ludwig van Beethoven',
 	'birthLocation' : 'Bonn, Germany',
-	'period' : 'classical'
+	'birthday' : '17 December 1770',
+	'death' : '26 March 1827',
+	'period' : 'Classical into Romantic'
+
 	},
-	'unknown' : {
-		'fullName' : 'unknown',
-		'birthLocation' : 'unknown',
-		'period' : 'unknown'
+	'liszt' : {
+	'fullName' : 'Franz Liszt',
+	'birthLocation' : 'Doborján, Kingdom of Hungary',
+	'birthday' : '22 October 1811',
+	'death' : '31 July 1886',
+	'period' : 'Romantic'
+	},
+	'chopin' : {
+	'fullName' : 'Frédéric François Chopin',
+	'birthLocation' : 'Żelazowa Wola in the Duchy of Warsaw',
+	'birthday' : '1 March 1810',
+	'death' : '17 October 1849',
+	'period' : 'Romantic'
+	},
+	'bach' : {
+	'fullName' : 'Johann Sebastian Bach',
+	'birthLocation' : 'Eisenach, present day Germany',
+	'birthday' : '31 March 1685',
+	'death' : '28 July 1750',
+	'period' : 'Baroque'
+	},
+	'tchaikovsky' : {
+	'fullName' : 'Pyotr Ilyich Tchaikovsky',
+	'birthLocation' : '',
+	'birthday' : '',
+	'death' : '',
+	'period' : ''
 	}
 }
 
